@@ -1,3 +1,8 @@
-body, ul, li, p {margin: 0px; padding: 0px; list-style: none; font-size: 1.2rem; font-family: 'Roboto Mono', monospace;}
-a {text-decoration: none;}
-.header {background: #1d1e20; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
+body, ul, li, p {margin: 0px; padding: 0px; list-style: none; font-size: 1.2rem; font-family: 'Roboto Mono', monospace; background: lightslategray;}
+a {text-decoration: none; color: whitesmoke;}
+.header {background: #1d1e20; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; padding: 20px;}
+.Menu {display:flex; background: #1d1e20} 
+.Menu li {margin-left: 10px;}
+.Menu li a {background: rgb(43, 46, 49); display: block; padding: 10px;}
+h1 {text-align: center; text-transform: uppercase;}
+p {text-align: justify; padding: 20px;}
